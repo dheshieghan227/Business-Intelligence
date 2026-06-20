@@ -24,12 +24,22 @@ The analysis is structured around two main stages:
   - Normalizes and joins datasets based on airport codes and timestamps.
   - Outputs an optimized dataset (`Final_Weather_Flight_All_Enhanced.yxdb`) for reporting.
 
+![Alteryx ETL Workflow](docs/images/workflow.jpg)
+
 ### 2. Visualization & Dashboarding (Power BI)
 - **Report file**: Located in `/dashboards/Weather_Impact_on_US_Flight_Delays_2016.pbix.zip`
 - **Dashboards**:
   - **Geographic & KPI Overview**: High-level KPIs showing 267 US airports, 20M weather events, 6M weather delay minutes, and 115K cancellations.
+  
+  ![Geographic & KPI Overview](docs/images/dashboard_geographic.png)
+  
   - **Weather vs. Flight Delays Storyboard**: Explores the frequency of weather events (Rain represents 74.15%, Fog 11.76%, Snow 11.59%) and parses the correlation between rainfall precipitation levels and average departure delay times.
+  
+  ![Weather vs Flight Delays Storyboard](docs/images/dashboard_storyboard.png)
+  
   - **Operational Trends & Risk Analysis**: Highlights seasonal trends (monthly weather delays vs. weather event counts) and profiles the top 15 busiest airports by weather activity.
+
+  ![Operational Trends & Risk Analysis](docs/images/dashboard_trends.png)
 
 ---
 
