@@ -64,3 +64,9 @@ The project files are organized as follows:
 - **Dominant Disruptor**: Rainfall is the most frequent weather event (74.15% of all events), but Snow and Fog cause higher average delay durations per occurrence.
 - **Top Vulnerable Hubs**: Busiest airports such as Atlanta (ATL), Chicago (ORD), and Dallas-Fort Worth (DFW) register the highest cumulative delay minutes due to their high traffic volumes compounding weather delays.
 - **Precipitation Correlation**: Flight delay minutes scale exponentially during heavy rainfall events exceeding critical precipitation thresholds.
+
+
+---
+
+## 💭 Course Reflection
+Designing Alteryx ETL pipelines and multi-layer Power BI dashboards for aviation delay analysis taught me how to turn millions of rows of raw logs into storyboards. It emphasized the power of translating metrics into actionable business strategies.
